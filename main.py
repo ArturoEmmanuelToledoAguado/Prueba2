@@ -10,8 +10,8 @@ def print_hi(name):
     suma()
 
 def suma():
-    a = 78
-    b = 11
+    a = 25
+    b = 30
     print(a+b)
 
 # Press the green button in the gutter to run the script.
