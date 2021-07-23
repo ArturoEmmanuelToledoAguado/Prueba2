@@ -3,17 +3,20 @@
 # Press Mayús+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-    suma()
-    division()
+import math
 
 def suma():
     a = 25
     b = 30
     print(a+b)
+def mult():
+    a = 88
+    b = 11
+    print(a*b)
+def facto():
+    a = 4
+    b = math.factorial(a)
+    print(b)
 
 def division():
     a = 100
@@ -22,6 +25,7 @@ def division():
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    suma()
+    mult()
+    facto()
+    division()
