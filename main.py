@@ -8,11 +8,17 @@ def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
     suma()
+    division()
 
 def suma():
     a = 25
     b = 30
     print(a+b)
+
+def division():
+    a = 100
+    b = 25
+    print(a/b)
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
